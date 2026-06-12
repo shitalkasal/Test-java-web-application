@@ -14,7 +14,6 @@ pipeline {
         JAR_NAME     = 'demo.jar'
         SERVICE_NAME = 'demo'
     }
-
     stages {
         stage('Checkout') {
             steps { checkout scm }
